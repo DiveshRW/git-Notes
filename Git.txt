@@ -1,0 +1,44 @@
+1) When using first time git
+git config --global user.name Divesh
+git config --global user.email diveshk442@gmail.com
+-check value is set or not
+ git config --global user.name/email
+
+Extra: ls -lart =>show all folders including hidden folders
+
+2)To get Repo
+- using int=> starting from beginning
+	->git init =>intialize your empty git repository
+	.git-> folder contains all git files.
+
+-git status=> show status
+
+-Git Stages
+1)untracked (git is not tracking the file- No file)
+   |
+   |
+   V
+git add the file and record change of our files
+2)staged (All files that need to be commit)
+	- git add filename-> to add files in staging area
+	-git add -A->add all files in staging area
+   |
+   |
+   V
+3)commit-> Is like a snapshot
+	->to start project tracking, need to start with one commit.(Called inital commit)
+	-git commit->to commit all files in staging area
+   |
+   |
+   V
+ 4)Unmodified(git record your file, take a screnshot)
+ Now you can edit this file or remain it as is it.
+
+   |                                            | 
+   |                                            | 
+   V                                            V
+   if you edit it will goes to modified        or can remove
+
+
+
+-or cloning=> get all data from server
