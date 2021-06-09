@@ -30,6 +30,10 @@ git add the file and record change of our files
 	-git commit->to commit all files in staging area
 	-git commit -m "Added more Html" =>directly add file in commit
 
+	-git checkout contact.php =>matches with last commit for that particular file(useful when a file changed automatically in your system. it will revered back it)
+	-git checkout -f=>matches all the modified file with commit and revered back to last change.
+
+
 	-git log=> what you have commit.
 	-git log -p  -1=>used to see the how many last commmit(example 1 to see last 1 commit)
    |
@@ -46,3 +50,10 @@ git add the file and record change of our files
 
 
 -or cloning=> get all data from server
+
+====================================================================================
+- git diff
+check working file with staging area and check the difference
+
+-git diff --staged
+compare staging with last commit
