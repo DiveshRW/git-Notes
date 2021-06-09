@@ -28,6 +28,7 @@ git add the file and record change of our files
 3)commit-> Is like a snapshot
 	->to start project tracking, need to start with one commit.(Called inital commit)
 	-git commit->to commit all files in staging area
+	-git commit -m "Added more Html" =>directly add file in commit
    |
    |
    V
