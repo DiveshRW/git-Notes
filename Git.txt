@@ -57,3 +57,5 @@ check working file with staging area and check the difference
 
 -git diff --staged
 compare staging with last commit
+
+-git commit -a -m "skip staging area and directly commit"  =>to directly commit files.
