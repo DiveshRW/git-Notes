@@ -29,6 +29,9 @@ git add the file and record change of our files
 	->to start project tracking, need to start with one commit.(Called inital commit)
 	-git commit->to commit all files in staging area
 	-git commit -m "Added more Html" =>directly add file in commit
+
+	-git log=> what you have commit.
+	-git log -p  -1=>used to see the how many last commmit(example 1 to see last 1 commit)
    |
    |
    V
