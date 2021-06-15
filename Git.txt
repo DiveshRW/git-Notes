@@ -8,8 +8,8 @@ Extra: ls -lart =>show all folders including hidden folders
 
 2)To get Repo
 - using int=> starting from beginning
-	->git init =>intialize your empty git repository
-	.git-> folder contains all git files.
+   ->git init =>intialize your empty git repository
+   .git-> folder contains all git files.
 
 -git status=> show status
 
@@ -20,22 +20,22 @@ Extra: ls -lart =>show all folders including hidden folders
    V
 git add the file and record change of our files
 2)staged (All files that need to be commit)
-	- git add filename-> to add files in staging area
-	-git add -A->add all files in staging area
+   - git add filename-> to add files in staging area
+   -git add -A->add all files in staging area
    |
    |
    V
 3)commit-> Is like a snapshot
-	->to start project tracking, need to start with one commit.(Called inital commit)
-	-git commit->to commit all files in staging area
-	-git commit -m "Added more Html" =>directly add file in commit
+   ->to start project tracking, need to start with one commit.(Called inital commit)
+   -git commit->to commit all files in staging area
+   -git commit -m "Added more Html" =>directly add file in commit
 
-	-git checkout contact.php =>matches with last commit for that particular file(useful when a file changed automatically in your system. it will revered back it)
-	-git checkout -f=>matches all the modified file with commit and revered back to last change.
+   -git checkout contact.php =>matches with last commit for that particular file(useful when a file changed automatically in your system. it will revered back it)
+   -git checkout -f=>matches all the modified file with commit and revered back to last change.
 
 
-	-git log=> what you have commit.
-	-git log -p  -1=>used to see the how many last commmit(example 1 to see last 1 commit)
+   -git log=> what you have commit.
+   -git log -p  -1=>used to see the how many last commmit(example 1 to see last 1 commit)
    |
    |
    V
