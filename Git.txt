@@ -88,5 +88,8 @@ M->with red show file modified in working directory
 
  - Switch to another branch
    -git checkout branchname
+
+  -Merge branch with master branch
+   -git merge brachname 
 =====================================================================================
 git push -u origin master => push changes in github
