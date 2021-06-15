@@ -59,3 +59,6 @@ check working file with staging area and check the difference
 compare staging with last commit
 
 -git commit -a -m "skip staging area and directly commit"  =>to directly commit files.
+
+=====================================================================================
+git push -u origin master => push changes in github
