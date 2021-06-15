@@ -76,5 +76,17 @@ M->with red show file modified in working directory
 
 - To ignore file in root directory where .gitignore file is. And not in folders
 - To ignore a folder --> /folderName
+
+
+==> Branches
+   Create a copy and work on it without effect on original 
+   (Bydefault Main branch is Master)
+
+  - Create new branch
+   -git branch NewBranchName
+   -git branch -> list all branches.
+
+ - Switch to another branch
+   -git checkout branchname
 =====================================================================================
 git push -u origin master => push changes in github
