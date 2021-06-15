@@ -91,5 +91,11 @@ M->with red show file modified in working directory
 
   -Merge branch with master branch
    -git merge brachname 
+
+=================================================================================
+GitHub:
+   -github is a hosting service, for git repository. 
+
+
 =====================================================================================
 git push -u origin master => push changes in github
