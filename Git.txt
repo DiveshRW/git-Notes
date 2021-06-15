@@ -91,5 +91,8 @@ M->with red show file modified in working directory
 
   -Merge branch with master branch
    -git merge brachname 
+
+- Create and jump into that branch
+   -git checkout -b branchName   
 =====================================================================================
 git push -u origin master => push changes in github
