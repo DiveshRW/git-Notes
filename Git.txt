@@ -75,5 +75,6 @@ M->with red show file modified in working directory
    *.log
 
 - To ignore file in root directory where .gitignore file is. And not in folders
+- To ignore a folder --> /folderName
 =====================================================================================
 git push -u origin master => push changes in github
