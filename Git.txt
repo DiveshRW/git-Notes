@@ -96,6 +96,51 @@ M->with red show file modified in working directory
 GitHub:
    -github is a hosting service, for git repository. 
 
+  - Remote repository
+   URL where we host our Repository.
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+
+
+
+   -To connect local git repository and remote git repository.
+      - git remote add origin https://github.com/DiveshRW/git-Notes.git
+
+     - remote -> origin(short name of URL)
+     git remote (check list of remote) 
+
+     -git remote -v (define URL from where we can fetch and pull)
+
+ - git push origin master ==> Push (master) branch into (origin)
+
+- Read, write access to private repository.
+
+- To give access to PC to read and write private git repository. (SSH)
+    -ssh-keygen -t ed25519 -C "diveshk442@gmail.com" (key generated)
+    -eval "$(ssh-agent -s)" this will generate (Agent pid 59566)
+
+    -ssh-add ~/.ssh/id_ed25519
+
+    -cat ~/.ssh/id_ed25519.pub -> show all content (add it to SSH keys)
+
+    Now deploy SSH key in github account.
+    - Adding a new SSH key to your GitHub account 
+
+    - git remote set-url origin (url) --> It will change URL.
+    - git push -u origin master ==>push code in Github
+
+    - To add more branches in github hosting.
+      - git checkout branchname
+      - git push -u origin branchname
+
+- git push -> push in a current branch
+
+-git push -u origin master -> push in a master branch and if next time we run git push it will push code in master branch.
 
 =====================================================================================
 git push -u origin master => push changes in github
+
+-  Pull request ->Request repository owner to open pull request and to change the code. Then approve by owner. 
