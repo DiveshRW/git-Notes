@@ -60,5 +60,9 @@ compare staging with last commit
 
 -git commit -a -m "skip staging area and directly commit"  =>to directly commit files.
 
+-git rm --cached filename--> to send file to untracted from commit or from staging state
+-git rm--> To remove file from directory.
+
+
 =====================================================================================
 git push -u origin master => push changes in github
