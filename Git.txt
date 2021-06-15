@@ -63,6 +63,8 @@ compare staging with last commit
 -git rm --cached filename--> to send file to untracted from commit or from staging state
 -git rm--> To remove file permanently.
 
-
+- git status -s
+M->with green shows file modified in staging 
+M->with red show file modified in working directory
 =====================================================================================
 git push -u origin master => push changes in github
