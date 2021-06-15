@@ -66,5 +66,9 @@ compare staging with last commit
 - git status -s
 M->with green shows file modified in staging 
 M->with red show file modified in working directory
+
+- .gitignore -> include files which we don't want to add to github.  
+--> create .gitignore file.
+ - It will ignorws all the files declared inside this file
 =====================================================================================
 git push -u origin master => push changes in github
