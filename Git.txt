@@ -144,3 +144,23 @@ git branch -M main
 git push -u origin master => push changes in github
 
 -  Pull request ->Request repository owner to open pull request and to change the code. Then approve by owner. 
+
+
+
+.////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Cloud Computing
+1) Fundamentals
+- understand what is cloud computing
+- Type of cloud computing
+- Variety of services and solutions
+- Key players in the industry
+
+2) Operating Systems
+knowledge of top operating systems.
+server specification OS
+3) Programming
+- Knowledge of sql and DB langauges
+- Python is popular
+- Experience with .Net art
+- Push towards the hands on approach
+
