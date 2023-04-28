@@ -145,6 +145,8 @@ git push -u origin master => push changes in github
 
 -  Pull request ->Request repository owner to open pull request and to change the code. Then approve by owner. 
 
+- Undo last push command - git push --force-with-lease origin HEAD~1:branch_name
+
 
 
 .////////////////////////////////////////////////////////////////////////////////////////////////////////////
